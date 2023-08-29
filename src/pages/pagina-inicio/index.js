@@ -1,6 +1,8 @@
 
 import './index.scss';
-import Cabecalho1 from '../../components/cabecalho1';
+// import Cabecalho1 from '../../components/cabecalho1';
+
+import Rodape from '../../components/rodape';
 
 export default function Homepage() {
 
@@ -11,7 +13,9 @@ export default function Homepage() {
 
       <header className="App-header">
 
-      <Cabecalho1/>
+      {/* <Cabecalho1/> */}
+
+      <Rodape/>
 
 
       </header>
