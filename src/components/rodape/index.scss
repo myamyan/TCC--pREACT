@@ -1,32 +1,153 @@
-.rodape
-{
+*{
   margin: 0;
   box-sizing: border-box;
+}
+.rodape
+{
   background-color: #B7A598;
-  height: 990px;
-   
+  height: 611px;
+  padding: 100px 50px;
+  .container{
+display: flex;
+flex-direction: row;
+  }
 
+  
+
+  .esquerda2{
+  
+    width: 100px;
+    height: 50px;
+
+ }
+
+ .logo{
+  max-width:200px;
+  max-height:150px;
+  display: block;
+  margin: 25px;
+  padding: 10px 10px 0 10px;
+  right:76 70vh;
+  position:absolute;
+  color: black;
+  
+ }
+
+ .esquerda2>p{
+width: 350px;
+ }
+
+ .esquerda2>h1{
+  font-size: 21px;
+  width: 300px;
+
+ }
+
+ .paragrafo-esquerda2{
+  margin-left: 85px;
+
+ }
+
+ .segura{
+  padding: 15px 155px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+ }
+
+ .rece{
+width: 60px;
+margin-right: 50px;
+ }
+
+ .seguro{
+  width: 130px;
+  height: 50px;
+ }
+
+ .redes-sociais{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+ }
+
+ .redes-sociais>h1{
+width: 200px;
+font-size: 15px;
+ }
+
+.icon-redes{
+  margin-top: 5px;
+  margin-left: -5px;
 }
 
-.esquerda2{
+ .i{
+  width: 20px;
+  margin-left: 5px;
+ }
+
+ .redes{
+  display: flex;
+  flex-direction: column;
+  color: #000;
+ }
+
+ .redes>a{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #000;
+ }
+ .aaa, a, p{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #000;
+ }
+
+.pagamentos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.politicas{
+  display: flex;
+  flex-direction: column;
+}
+
+.suporte>h1{
+  font-size: 15px;
+}
+
+.formas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formas>h2{
+  font-size: 12px;
+  margin-top: 20px;
+  width: 150px;
+}
+.politicas>a{
+  margin-bottom: -5px;
+}
+
+hr{
+  margin-top: 20px;
+  border-color: #846468;
+}
+
+.details{
   
-    
-
-   width: 100px;
-   height: 50px;
-   text-align: center;
-
-   .logo{
-    max-width:200px;
-    max-height:150px;
-    display: block;
-    margin: 25px;
-    padding: 10px 10px 0 10px;
-    right:76 70vh;
-    position:absolute;
-    color: black;
-    
-   }
-
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
 }
