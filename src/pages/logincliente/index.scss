@@ -1,0 +1,1937 @@
+@font-face {
+    font-family: 'playfairdisplay';
+    src: url('../../../public/assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'montserat';
+    src: url('../../../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+
+
+.pagina-logincliente {
+
+
+    margin: 0px;
+    box-sizing: border-box;
+
+    width: 100%;
+
+
+    .loginc {
+
+
+        display: flex;
+        flex-direction: row;
+
+
+        max-width: 100%;
+        max-height: 100%;
+
+        .imagem-loginc2 {
+
+
+
+            display: none;
+
+            >img {
+
+
+
+                display: none;
+
+            }
+
+
+        }
+
+
+
+        .inputz-login {
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            padding-bottom: 22px;
+            padding-top: 0px;
+            padding-left: 75px;
+            padding-right: 92px;
+
+            max-width: 50%;
+
+            background-color: #B7A598;
+
+
+
+            >h1 {
+
+
+                font-family: 'playfairdisplay';
+                font-size: 40px;
+
+                width: 250px;
+
+                padding-bottom: 2.5%;
+                padding-top: 20%;
+                padding-left: 20px;
+
+
+                color: #211715;
+
+
+            }
+
+            >p {
+
+
+                font-family: 'montserrat';
+
+                padding-bottom: 20%;
+
+
+
+
+
+            }
+
+
+
+            .div-inputz-loginc {
+
+
+                padding-right: 13px;
+
+
+
+                >p {
+
+
+                    font-family: 'montserrat';
+                    font-weight: 600;
+                    font-size: 14px;
+
+                    text-transform: uppercase;
+
+                    color: #484242ea;
+
+                    position: absolute;
+
+                    margin-top: 20px;
+                    margin-left: 15px;
+
+
+
+
+                }
+
+
+                >input {
+
+
+                    padding: 15px;
+                    padding-top: 30px;
+
+                    width: 450px;
+
+
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                    font-family: 'montserrat';
+
+                    border: none;
+                    border-radius: 5px;
+
+
+                }
+
+
+                >input::-webkit-input-placeholder {
+
+
+
+                    font-family: 'montserrat';
+
+                }
+
+
+            }
+
+
+
+
+
+
+        }
+
+
+
+
+        .imagem-loginc1 {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            background-color: #1E1E1E;
+
+            max-height: 100%;
+            width: 55%;
+
+
+
+
+
+            .camada2-loginc {
+
+
+
+                position: relative;
+
+                width: 100%;
+                height: 1082px;
+
+                margin-top: -175px;
+
+
+            }
+
+
+            .camada3-loginc {
+
+
+
+                position: absolute;
+
+                opacity: 0.5;
+
+
+            }
+
+
+
+        }
+
+
+        .botoes-logincliente {
+
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            padding-top: 10px;
+
+            margin-bottom: 100px;
+
+
+
+            >button {
+
+
+                color: #fff;
+                background-color: #1D1710;
+
+                padding: 15px;
+                padding-left: 35px;
+                padding-right: 35px;
+
+                border: none;
+                border-radius: 25px;
+
+                font-family: 'montserrat';
+                font-weight: 600;
+
+                letter-spacing: 1px;
+
+                margin-bottom: 50px;
+
+
+
+
+
+            }
+
+
+            >button:hover {
+
+
+                cursor: pointer;
+
+            }
+
+            >a {
+
+
+                padding-top: 15px;
+
+                color: #211715;
+
+                font-family: 'playfair display';
+                font-weight: 600;
+                font-size: 18px;
+
+                margin-right: 175px;
+
+                text-decoration: none;
+
+
+            }
+
+            >a:hover {
+
+
+                text-decoration: underline;
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+
+
+
+
+        .redes-loginc {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            >p {
+
+
+                font-family: 'montserrat';
+
+
+            }
+
+
+            .icons-redes-logincliente {
+
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                margin-top: 10px;
+
+                padding-bottom: 50px;
+
+                >img {
+
+
+                    max-width: 75px;
+                    max-height: 75px;
+
+
+                }
+
+
+
+                >img:hover {
+
+
+                    cursor: pointer;
+
+
+                }
+
+
+
+            }
+
+
+            a {
+
+
+                color: #395032;
+
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+    @media (max-width:720px) {
+
+
+
+        .loginc {
+
+
+            display: flex;
+            flex-direction: column;
+
+
+            width: 720px;
+
+            background-color: #B7A598;
+
+
+
+            .inputz-login {
+
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                padding-bottom: 22px;
+                padding-top: 0px;
+                padding-left: 150px;
+                padding-right: 175px;
+
+                max-width: 720px;
+
+                background-color: #B7A598;
+
+                margin-top: 500px;
+
+                position: absolute;
+
+                border-radius: 50px;
+
+
+
+                >h1 {
+
+
+                    font-family: 'playfairdisplay';
+                    font-size: 40px;
+
+                    width: 250px;
+
+                    padding-bottom: 2.5%;
+                    padding-top: 20%;
+                    padding-left: 20px;
+
+
+                    color: #211715;
+
+
+
+
+                }
+
+                >p {
+
+
+                    font-family: 'montserrat';
+
+                    padding-bottom: 20%;
+
+
+
+
+
+                }
+
+
+
+                .div-inputz-loginc {
+
+
+                    padding-right: 13px;
+
+
+
+                    >p {
+
+
+                        font-family: 'montserrat';
+                        font-weight: 600;
+                        font-size: 14px;
+
+                        text-transform: uppercase;
+
+                        color: #484242ea;
+
+                        position: absolute;
+
+                        margin-top: 20px;
+                        margin-left: 15px;
+
+
+
+
+                    }
+
+
+                    >input {
+
+
+                        padding: 15px;
+                        padding-top: 30px;
+
+                        width: 450px;
+
+
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+
+                        font-family: 'montserrat';
+
+                        border: none;
+                        border-radius: 5px;
+
+
+                    }
+
+
+                    >input::-webkit-input-placeholder {
+
+
+
+                        font-family: 'montserrat';
+
+                    }
+
+
+                }
+
+
+
+
+
+
+            }
+
+
+
+
+            .imagem-loginc1 {
+
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                background-color: #1E1E1E;
+
+                max-height: 55%;
+                width: 100%;
+
+
+
+
+
+                .camada2-loginc {
+
+
+
+                    position: relative;
+
+                    width: 100%;
+                    height: 865px;
+
+                    margin-top: -175px;
+
+
+                }
+
+
+                .camada3-loginc {
+
+
+
+                    max-width: 350px;
+                    max-height: 350px;
+
+                    margin-top: -100px;
+
+
+                    position: absolute;
+
+                    opacity: 0.5;
+
+
+                }
+
+
+
+            }
+
+
+            .botoes-logincliente {
+
+
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                padding-top: 10px;
+
+                margin-bottom: 100px;
+
+
+
+                >button {
+
+
+                    color: #fff;
+                    background-color: #1D1710;
+
+                    padding: 15px;
+                    padding-left: 35px;
+                    padding-right: 35px;
+
+                    border: none;
+                    border-radius: 25px;
+
+                    font-family: 'montserrat';
+                    font-weight: 600;
+
+                    letter-spacing: 1px;
+
+                    margin-bottom: 50px;
+
+
+
+
+
+                }
+
+
+                >button:hover {
+
+
+                    cursor: pointer;
+
+                }
+
+                >a {
+
+
+                    padding-top: 15px;
+
+                    color: #211715;
+
+                    font-family: 'playfair display';
+                    font-weight: 600;
+                    font-size: 18px;
+
+                    margin-right: 175px;
+
+                    text-decoration: none;
+
+
+                }
+
+                >a:hover {
+
+
+                    text-decoration: underline;
+
+
+
+                }
+
+
+
+
+            }
+
+
+
+
+
+
+
+            .redes-loginc {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+
+                >p {
+
+
+                    font-family: 'montserrat';
+
+
+                }
+
+
+                .icons-redes-logincliente {
+
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-top: 10px;
+
+                    padding-bottom: 50px;
+
+                    >img {
+
+
+                        max-width: 75px;
+                        max-height: 75px;
+
+
+                    }
+
+
+
+                    >img:hover {
+
+
+                        cursor: pointer;
+
+
+                    }
+
+
+
+                }
+
+
+                a {
+
+
+                    color: #395032;
+
+
+
+
+                }
+
+
+
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:720px) {
+
+
+
+    .loginc {
+
+
+        display: flex;
+        flex-direction: column;
+
+
+        width: 720px;
+
+        background-color: #B7A598;
+
+
+
+        .inputz-login {
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            padding-bottom: 22px;
+            padding-top: 0px;
+            padding-left: 150px;
+            padding-right: 175px;
+
+            max-width: 720px;
+
+            background-color: #B7A598;
+
+            margin-top: 500px;
+
+            position: absolute;
+
+            border-radius: 50px;
+
+
+
+            >h1 {
+
+
+                font-family: 'playfairdisplay';
+                font-size: 40px;
+
+                width: 250px;
+
+                padding-bottom: 2.5%;
+                padding-top: 20%;
+                padding-left: 20px;
+
+
+                color: #211715;
+
+
+
+
+            }
+
+            >p {
+
+
+                font-family: 'montserrat';
+
+                padding-bottom: 20%;
+
+
+
+
+
+            }
+
+
+
+            .div-inputz-loginc {
+
+
+                padding-right: 13px;
+
+
+
+                >p {
+
+
+                    font-family: 'montserrat';
+                    font-weight: 600;
+                    font-size: 14px;
+
+                    text-transform: uppercase;
+
+                    color: #484242ea;
+
+                    position: absolute;
+
+                    margin-top: 20px;
+                    margin-left: 15px;
+
+
+
+
+                }
+
+
+                >input {
+
+
+                    padding: 15px;
+                    padding-top: 30px;
+
+                    width: 450px;
+
+
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                    font-family: 'montserrat';
+
+                    border: none;
+                    border-radius: 5px;
+
+
+                }
+
+
+                >input::-webkit-input-placeholder {
+
+
+
+                    font-family: 'montserrat';
+
+                }
+
+
+            }
+
+
+
+
+
+
+        }
+
+
+
+
+        .imagem-loginc1 {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            background-color: #1E1E1E;
+
+            max-height: 55%;
+            width: 100%;
+
+
+
+
+
+            .camada2-loginc {
+
+
+
+                position: relative;
+
+                width: 100%;
+                height: 865px;
+
+                margin-top: -175px;
+
+
+            }
+
+
+            .camada3-loginc {
+
+
+
+                max-width: 350px;
+                max-height: 350px;
+
+                margin-top: -100px;
+
+
+                position: absolute;
+
+                opacity: 0.5;
+
+
+            }
+
+
+
+        }
+
+
+        .botoes-logincliente {
+
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            padding-top: 10px;
+
+            margin-bottom: 100px;
+
+
+
+            >button {
+
+
+                color: #fff;
+                background-color: #1D1710;
+
+                padding: 15px;
+                padding-left: 35px;
+                padding-right: 35px;
+
+                border: none;
+                border-radius: 25px;
+
+                font-family: 'montserrat';
+                font-weight: 600;
+
+                letter-spacing: 1px;
+
+                margin-bottom: 50px;
+
+
+
+
+
+            }
+
+
+            >button:hover {
+
+
+                cursor: pointer;
+
+            }
+
+            >a {
+
+
+                padding-top: 15px;
+
+                color: #211715;
+
+                font-family: 'playfair display';
+                font-weight: 600;
+                font-size: 18px;
+
+                margin-right: 175px;
+
+                text-decoration: none;
+
+
+            }
+
+            >a:hover {
+
+
+                text-decoration: underline;
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+
+
+
+
+        .redes-loginc {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            >p {
+
+
+                font-family: 'montserrat';
+
+
+            }
+
+
+            .icons-redes-logincliente {
+
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                margin-top: 10px;
+
+                padding-bottom: 50px;
+
+                >img {
+
+
+                    max-width: 75px;
+                    max-height: 75px;
+
+
+                }
+
+
+
+                >img:hover {
+
+
+                    cursor: pointer;
+
+
+                }
+
+
+
+            }
+
+
+            a {
+
+
+                color: #395032;
+
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+    @media (max-width:720px) {
+
+
+
+        .loginc {
+
+
+            display: flex;
+            flex-direction: column;
+
+
+            width: 720px;
+
+            background-color: #B7A598;
+
+
+
+            .inputz-login {
+
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                padding-bottom: 22px;
+                padding-top: 0px;
+                padding-left: 150px;
+                padding-right: 175px;
+
+                max-width: 720px;
+
+                background-color: #B7A598;
+
+                margin-top: 500px;
+
+                position: absolute;
+
+                border-radius: 50px;
+
+
+
+                >h1 {
+
+
+                    font-family: 'playfairdisplay';
+                    font-size: 40px;
+
+                    width: 250px;
+
+                    padding-bottom: 2.5%;
+                    padding-top: 20%;
+                    padding-left: 20px;
+
+
+                    color: #211715;
+
+
+
+
+                }
+
+                >p {
+
+
+                    font-family: 'montserrat';
+
+                    padding-bottom: 20%;
+
+
+
+
+
+                }
+
+
+
+                .div-inputz-loginc {
+
+
+                    padding-right: 13px;
+
+
+
+                    >p {
+
+
+                        font-family: 'montserrat';
+                        font-weight: 600;
+                        font-size: 14px;
+
+                        text-transform: uppercase;
+
+                        color: #484242ea;
+
+                        position: absolute;
+
+                        margin-top: 20px;
+                        margin-left: 15px;
+
+
+
+
+                    }
+
+
+                    >input {
+
+
+                        padding: 15px;
+                        padding-top: 30px;
+
+                        width: 450px;
+
+
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+
+                        font-family: 'montserrat';
+
+                        border: none;
+                        border-radius: 5px;
+
+
+                    }
+
+
+                    >input::-webkit-input-placeholder {
+
+
+
+                        font-family: 'montserrat';
+
+                    }
+
+
+                }
+
+
+
+
+
+
+            }
+
+
+
+
+            .imagem-loginc1 {
+
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                background-color: #1E1E1E;
+
+                max-height: 55%;
+                width: 100%;
+
+
+
+
+
+                .camada2-loginc {
+
+
+
+                    position: relative;
+
+                    width: 100%;
+                    height: 865px;
+
+                    margin-top: -175px;
+
+
+                }
+
+
+                .camada3-loginc {
+
+
+
+                    max-width: 350px;
+                    max-height: 350px;
+
+                    margin-top: -100px;
+
+
+                    position: absolute;
+
+                    opacity: 0.5;
+
+
+                }
+
+
+
+            }
+
+
+            .botoes-logincliente {
+
+
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                padding-top: 10px;
+
+                margin-bottom: 100px;
+
+
+
+                >button {
+
+
+                    color: #fff;
+                    background-color: #1D1710;
+
+                    padding: 15px;
+                    padding-left: 35px;
+                    padding-right: 35px;
+
+                    border: none;
+                    border-radius: 25px;
+
+                    font-family: 'montserrat';
+                    font-weight: 600;
+
+                    letter-spacing: 1px;
+
+                    margin-bottom: 50px;
+
+
+
+
+
+                }
+
+
+                >button:hover {
+
+
+                    cursor: pointer;
+
+                }
+
+                >a {
+
+
+                    padding-top: 15px;
+
+                    color: #211715;
+
+                    font-family: 'playfair display';
+                    font-weight: 600;
+                    font-size: 18px;
+
+                    margin-right: 175px;
+
+                    text-decoration: none;
+
+
+                }
+
+                >a:hover {
+
+
+                    text-decoration: underline;
+
+
+
+                }
+
+
+
+
+            }
+
+
+
+
+
+
+
+            .redes-loginc {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+
+                >p {
+
+
+                    font-family: 'montserrat';
+
+
+                }
+
+
+                .icons-redes-logincliente {
+
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-top: 10px;
+
+                    padding-bottom: 50px;
+
+                    >img {
+
+
+                        max-width: 75px;
+                        max-height: 75px;
+
+
+                    }
+
+
+
+                    >img:hover {
+
+
+                        cursor: pointer;
+
+
+                    }
+
+
+
+                }
+
+
+                a {
+
+
+                    color: #395032;
+
+
+
+
+                }
+
+
+
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 360px) {
+
+
+
+        .loginc {
+
+
+            display: flex;
+            flex-direction: column;
+
+
+            max-width: 100%;
+
+            background-color: #B7A598;
+
+
+
+            .inputz-login {
+
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                padding-bottom: 22px;
+                padding-top: 0px;
+                padding-left: 150px;
+                padding-right: 175px;
+
+                width: 360px;
+
+                background-color: #B7A598;
+
+                margin-top: 700px;
+
+                position: absolute;
+
+                border-radius: 0px;
+
+
+
+                >h1 {
+
+
+                    font-family: 'playfairdisplay';
+                    font-size: 16px;
+
+                    width: 250px;
+
+                    text-align: center;
+
+                    margin-top: 50px;
+
+
+
+
+                }
+
+                >p {
+
+                    text-align: center;
+
+                    font-family: 'montserrat';
+
+                    padding-bottom: 20%;
+
+                    font-size: 12px;
+
+                    width: 250px;
+
+
+
+
+
+                }
+
+
+
+                .div-inputz-loginc {
+
+
+                    padding-right: 13px;
+                    padding-left: 50px;
+
+
+
+                    >p {
+
+
+                        font-family: 'montserrat';
+                        font-weight: 600;
+                        font-size: 14px;
+
+                        text-transform: uppercase;
+
+                        color: #484242ea;
+
+                        position: absolute;
+
+                        margin-top: 20px;
+                        margin-left: 15px;
+
+
+
+
+                    }
+
+
+                    >input {
+
+
+                        padding: 15px;
+                        padding-top: 30px;
+
+                        max-width: 280px;
+
+
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+
+                        font-family: 'montserrat';
+
+                        border: none;
+                        border-radius: 5px;
+
+
+                    }
+
+
+                    >input::-webkit-input-placeholder {
+
+
+
+                        font-family: 'montserrat';
+
+                    }
+
+
+                }
+
+
+
+
+
+
+            }
+
+
+
+
+            .imagem-loginc1 {
+
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                background-color: #1E1E1E;
+
+                max-height: 55%;
+                width: 360px;
+
+
+
+
+
+                .camada2-loginc {
+
+
+
+                    position: relative;
+
+                    width: 360px;
+                    height: 865px;
+
+                    margin-top: -175px;
+
+
+                }
+
+
+                .camada3-loginc {
+
+
+
+                    max-width: 350px;
+                    max-height: 350px;
+
+                    margin-top: -100px;
+
+
+                    position: absolute;
+
+                    opacity: 0.5;
+
+
+                }
+
+
+
+            }
+
+
+            .inputz-putz-logincliente {
+
+
+
+                .botoes-logincliente {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    align-items: center;
+
+                    padding-top: 10px;
+
+                    margin-bottom: 0px;
+
+
+
+                    >button {
+
+
+                        color: #fff;
+                        background-color: #1D1710;
+
+                        padding: 15px;
+                        padding-left: 35px;
+                        padding-right: 35px;
+
+                        border: none;
+                        border-radius: 25px;
+
+                        font-family: 'montserrat';
+                        font-weight: 600;
+
+                        letter-spacing: 1px;
+
+                        margin-bottom: 50px;
+
+                        max-width: 150px;
+
+
+
+
+
+                    }
+
+
+                    >button:hover {
+
+
+                        cursor: pointer;
+
+                    }
+
+                    >a {
+
+
+                        padding-top: 0px;
+
+                        color: #211715;
+
+                        font-family: 'playfair display';
+                        font-weight: 600;
+                        font-size: 18px;
+
+                        margin-right: 115px;
+                        margin-bottom: 75px;
+
+                        text-decoration: none;
+                        text-align: center;
+
+
+                    }
+
+                    >a:hover {
+
+
+                        text-decoration: underline;
+
+
+
+                    }
+
+
+
+
+                }
+
+
+
+            }
+
+
+
+            .redes-loginc {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+
+                >p {
+
+
+                    font-family: 'montserrat';
+                    font-size: 12px;
+
+
+                }
+
+
+                .icons-redes-logincliente {
+
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-top: 10px;
+
+                    padding-bottom: 50px;
+
+                    >img {
+
+
+                        width: 50px;
+                        height: 50px;
+
+
+                    }
+
+
+
+                    >img:hover {
+
+
+                        cursor: pointer;
+
+
+                    }
+
+
+
+                }
+
+
+                a {
+
+
+                    color: #395032;
+
+
+
+
+                }
+
+
+
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+}

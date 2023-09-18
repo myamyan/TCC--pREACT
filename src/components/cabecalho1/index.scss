@@ -19,12 +19,14 @@
     align-items: center;
 
 
+
     padding: 15px;
 
-    background-image: url('../../../public/assets/images/provisa.png');
 
 
-    .esquerda {
+
+
+    .cab1-esquerda {
 
 
         display: flex;
@@ -35,10 +37,10 @@
         padding-left: 20px;
 
 
-        >img {
+        .menu1 {
 
-            height: 30px;
-            width: 30px;
+            height: 60px;
+            width: 60px;
 
             padding-right: 20px;
             padding-top: 5px;
@@ -57,8 +59,15 @@
         }
 
 
+        .logo1 {
 
-        >img:hover {
+
+            display: none;
+
+        }
+
+
+    .menu1:hover {
 
             cursor: pointer;
 
@@ -75,7 +84,7 @@
     }
 
 
-    .direita {
+    .cab1-direita {
 
 
         display: flex;
@@ -90,10 +99,10 @@
         width: 200px;
 
 
-        .img1 {
+        .img1-cab1 {
 
-            max-height: 60px;
-            max-width: 67px;
+            max-height: 90px;
+            max-width: 104px;
 
             padding-top: 15px;
 
@@ -102,10 +111,10 @@
         }
 
 
-        .img2 {
+        .img2-cab1 {
 
-            max-height: 30px;
-            max-width: 30px;
+            max-height: 70px;
+            max-width: 70px;
 
             padding-right: 20px;
 
@@ -117,20 +126,39 @@
         }
 
 
-        >h4 {
+        >h3 {
 
-            color: #fff;
 
-            font-family: 'imprima';
-            font-weight: 300;
-            font-size: 15px;
+
+            > a  {
+
+
+                color: #fff;
+
+                font-family: 'imprima';
+                font-weight: 300;
+
+                text-decoration: none;
+
+
+            }
+
+
+        }
+
+
+        >h3:hover {
+
+
+            cursor: pointer;
+
 
         }
 
 
 
 
-        .img1 {
+        .img1-cab1 {
 
             cursor: pointer;
 
@@ -139,7 +167,7 @@
         }
 
 
-        .img2 {
+        .img2-cab1 {
 
             cursor: pointer;
 
@@ -163,6 +191,210 @@
 
 
 
+
+    @media (max-width:720px) {
+
+
+        display: flex;
+        justify-content: center;
+
+
+
+        .cab1-esquerda {
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-left: 10px;
+
+            max-width: 360px;
+
+
+            .menu1 {
+
+
+                margin-left: -50px;
+                margin-right: 175px;
+
+
+
+            }
+
+
+            .logo1 {
+
+
+                display: none;
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+        .cab1-direita {
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-left: 20px;
+
+
+
+            width: 200px;
+
+
+
+            >h3 {
+
+
+                display: none;
+
+
+            }
+
+            .img1-cab1 {
+
+
+                display: none;
+
+
+            }
+
+
+            .img2-cab1 {
+
+
+                margin-left: 175px;
+
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    @media (max-width: 360px) {
+
+
+
+
+
+        .cab1-esquerda {
+
+            padding-left: 25px;
+
+
+            .menu1 {
+
+
+                display: flex;
+
+                margin-left: 0px;
+                margin-right: 0px;
+
+                
+            height: 50px;
+            width: 50px;
+
+
+
+            }
+
+
+            >h2 {
+
+
+                display: none;
+
+            }
+
+
+            .logo1 {
+
+
+                display: flex;
+
+                max-width: 120px;
+                max-height: 120px;
+
+                margin-left: 35px;
+                margin-right: 15px;
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+        .cab1-direita {
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-left: 20px;
+
+
+
+            width: 200px;
+
+
+
+            .img2-cab1 {
+
+
+                margin-left: 0px;
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+    }
 
 
 

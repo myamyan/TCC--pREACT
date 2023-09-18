@@ -3,28 +3,39 @@ import './index.scss';
 
 export default function Cabecalho1() {
   return (
+
+
     <div className="cabecalho1">
 
-        <div className='esquerda'>
+      <div className='cab1-esquerda'>
 
 
-            <img src="/assets/images/pauxinhos.png" alt="" />
+        <div>
+          <img src="/assets/images/zabugaaa.png" alt="" className="menu1"/>
 
-            <h2>ATELIÊ RÉGIA</h2>
+        </div>
+
+        <h2>ATELIÊ RÉGIA</h2>
+
+        <div>
+          <img src="/assets/images/logo.png" alt="" className="logo1" />
 
         </div>
 
+      </div>
 
-        <div className='direita'>
+
+      <div className='cab1-direita'>
 
 
-            <img className="img1" src="/assets/images/lups.png" alt="" />
+        <img className="img1-cab1" src="/assets/images/lupis.png" alt="" />
 
-            <h4>LOGIN</h4>
+        <h3><a href="/login">LOGIN</a></h3>
 
-            <img className="img2" src="/assets/images/sacs.png" alt="" />
+        <img className="img2-cab1" src="/assets/images/redfivediamonds.png" alt="" />
 
-        </div>
+      </div>
+
 
     </div>
   );

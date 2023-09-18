@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'Kronaone';
+    src: url('../../../public/assets/fonts/krona-one/KronaOne-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'imprima';
+    src: url('../../../public/assets/fonts/imprima/Imprima-Regular.ttf');
+}
+
+
+.cabecalho2 {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: #B7A598;
+
+
+    padding: 15px;
+
+
+
+    .cab2-esquerda {
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-left: 20px;
+
+
+        .menu {
+
+            height: 60px;
+            width: 60px;
+
+            padding-right: 20px;
+            padding-top: 5px;
+
+        }
+
+
+        >h2 {
+
+            color: #fff;
+
+            font-family: 'Kronaone';
+            font-weight: 300;
+            font-size: 18px;
+
+        }
+
+
+        .logo {
+
+
+            display: none;
+
+        }
+
+
+    .menu:hover {
+
+            cursor: pointer;
+
+        }
+
+
+        >h2:hover {
+
+            cursor: pointer;
+
+        }
+
+
+    }
+
+
+    .cab2-direita {
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-left: 20px;
+
+
+
+        width: 200px;
+
+
+        .img1-cab2 {
+
+            max-height: 90px;
+            max-width: 104px;
+
+            padding-top: 15px;
+
+
+
+        }
+
+
+        .img2-cab2 {
+
+            max-height: 70px;
+            max-width: 70px;
+
+            padding-right: 20px;
+
+            width: 200px;
+
+            padding-left: 15px;
+
+
+        }
+
+
+        >h3 {
+
+            color: #fff;
+
+            font-family: 'imprima';
+            font-weight: 300;
+
+
+        }
+
+
+        >h3:hover {
+
+
+            cursor: pointer;
+
+
+        }
+
+
+
+
+        .img1-cab2 {
+
+            cursor: pointer;
+
+
+
+        }
+
+
+        .img2-cab2 {
+
+            cursor: pointer;
+
+        }
+
+
+        >h4:hover {
+
+            cursor: pointer;
+
+        }
+
+
+
+
+
+    }
+
+
+
+    .barra-de-pesquisa {
+
+
+
+        display: none;
+
+    }
+
+
+
+
+    @media (max-width:720px) {
+
+
+        display: flex;
+        justify-content: center;
+
+
+
+        .cab2-esquerda {
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-left: 10px;
+
+            max-width: 360px;
+
+
+            .menu {
+
+
+                margin-left: -50px;
+                margin-right: 175px;
+
+
+
+            }
+
+
+            .logo {
+
+
+                display: none;
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+        .cab2-direita {
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-left: 20px;
+
+
+
+            width: 200px;
+
+
+
+            >h3 {
+
+
+                display: none;
+
+
+            }
+
+            .img1-cab2 {
+
+
+                display: none;
+
+
+            }
+
+
+            .img2-cab2 {
+
+
+                margin-left: 175px;
+
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+    @media (max-width: 360px) {
+
+
+
+
+
+        .cab2-esquerda {
+
+            padding-left: 25px;
+
+
+            .menu {
+
+
+                display: flex;
+
+                margin-left: 0px;
+                margin-right: 0px;
+
+                
+            height: 50px;
+            width: 50px;
+
+
+
+            }
+
+
+            >h2 {
+
+
+                display: none;
+
+            }
+
+
+            .logo {
+
+
+                display: flex;
+
+                max-width: 120px;
+                max-height: 120px;
+
+                margin-left: 35px;
+                margin-right: 15px;
+
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+        .cab2-direita {
+
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            padding-left: 20px;
+
+
+
+            width: 200px;
+
+
+
+            .img2-cab2 {
+
+
+                margin-left: 0px;
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+    }
+
+
+
+
+}

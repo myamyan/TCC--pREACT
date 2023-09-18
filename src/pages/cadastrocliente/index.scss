@@ -1,0 +1,674 @@
+@font-face {
+    font-family: 'playfairdisplay';
+    src: url('../../../public/assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'montserat';
+    src: url('../../../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+
+
+.pagina-cadastrocliente {
+
+
+
+    .cadastroc {
+
+
+        display: flex;
+        flex-direction: row;
+
+
+        max-width: 100%;
+        max-height: 100%;
+
+        .imagem-cadastroc1 {
+
+
+
+            display: none;
+
+
+        }
+
+
+
+        .inputz {
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            padding-bottom: 22px;
+            padding-top: 0px;
+            padding-left: 75px;
+            padding-right: 92px;
+
+            max-width: 1000px;
+
+            background-color: #B7A598;
+
+
+
+            >h1 {
+
+
+                display: flex;
+                align-self: flex-start;
+
+                font-family: 'playfairdisplay';
+                font-size: 40px;
+
+                width: 250px;
+
+                padding-bottom: 20%;
+                padding-top: 20%;
+
+
+                color: #211715;
+
+
+            }
+
+            >p {
+
+
+                display: flex;
+                align-self: flex-start;
+
+                font-family: 'montserrat';
+
+                padding-bottom: 10%;
+
+
+
+                >a {
+
+
+                    margin-left: 7px;
+
+                    color: #395032;
+
+                    font-family: 'montserrat';
+
+
+                }
+
+
+
+            }
+
+
+
+            .div-inputz-cadastroc {
+
+
+                padding-right: 13px;
+
+
+
+                >p {
+
+
+                    font-family: 'montserrat';
+                    font-weight: 600;
+                    font-size: 14px;
+
+                    text-transform: uppercase;
+
+                    color: #484242ea;
+
+                    position: absolute;
+
+                    margin-top: 20px;
+                    margin-left: 15px;
+
+
+
+
+                }
+
+
+                >input {
+
+
+                    padding: 15px;
+                    padding-top: 30px;
+
+                    width: 450px;
+
+
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                    font-family: 'montserrat';
+
+                    border: none;
+                    border-radius: 5px;
+
+
+                }
+
+
+                >input::-webkit-input-placeholder {
+
+
+
+                    font-family: 'montserrat';
+
+                }
+
+
+            }
+
+
+
+
+
+
+        }
+
+
+
+
+        .imagem-cadastroc2 {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            background-color: #1E1E1E;
+
+            max-height: 100%;
+            width: 900px;
+
+
+
+            .camada2-cadastroc {
+
+
+
+                position: relative;
+
+                width: 649px;
+                height: 1082px;
+
+                margin-top: -175px;
+
+
+            }
+
+
+            .camada3-cadastroc {
+
+
+
+                position: absolute;
+
+                opacity: 0.5;
+
+
+            }
+
+
+
+        }
+
+
+        .botoes-cadastrocliente {
+
+
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            padding-top: 10px;
+
+
+            >p {
+
+                margin-bottom: 25px;
+
+                .checkbox-cadastrarc {
+
+
+                    border-radius: 1px;
+                    border-color: #1E1E1E;
+                    border-width: 2px;
+
+                    background-color: #B7A598;
+
+                    margin-right: 15px;
+
+                }
+
+
+                .checkbox-cadastrarc::after {
+
+
+                    background-color: #1E1E1E;
+
+                }
+
+            }
+
+
+
+            >button {
+
+
+                color: #fff;
+                background-color: #1D1710;
+
+                padding: 15px;
+                padding-left: 35px;
+                padding-right: 35px;
+
+                border: none;
+                border-radius: 25px;
+
+                font-family: 'montserrat';
+
+                margin-bottom: 50px;
+
+
+
+            }
+
+            >button:hover {
+
+
+                cursor: pointer;
+
+
+            }
+
+
+
+
+        }
+
+
+
+
+
+
+
+        .redes-cadastro {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            >p {
+
+
+                font-family: 'montserrat';
+
+
+            }
+
+
+            .icons-redes-cadastroc {
+
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                margin-top: 10px;
+
+                >img {
+
+
+                    max-width: 75px;
+                    max-height: 75px;
+
+                }
+
+
+
+                >img:hover {
+
+
+                    cursor: pointer;
+
+
+                }
+
+
+
+            }
+
+
+
+
+        }
+
+
+
+
+    }
+
+
+
+
+
+
+
+    @media (max-width:720px) {
+
+
+        .cadastroc {
+            display: flex;
+            flex-direction: column;
+
+            .imagem-cadastroc1 {
+
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+
+                background-color: #1E1E1E;
+
+                max-height: 55%;
+                max-width: 720px;
+
+
+                .camada2-cadastroc {
+
+
+
+                    position: relative;
+
+                    width: 100%;
+                    height: 865px;
+
+                    margin-top: -175px;
+
+
+                }
+
+
+                .camada3-cadastroc {
+
+
+                    max-width: 350px;
+                    max-height: 350px;
+
+                    margin-top: -100px;
+
+                    position: absolute;
+
+                    opacity: 0.5;
+
+
+                }
+
+
+
+            }
+
+
+
+
+
+
+
+            .imagem-cadastroc2 {
+
+
+                display: none;
+
+            }
+
+        }
+
+
+        .inputz {
+
+
+            position: absolute;
+
+            width: 720px;
+
+            margin-top: 500px;
+
+            border-radius: 50px;
+
+
+        }
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    @media (max-width: 360px) {
+
+
+
+
+
+        .inputz {
+
+
+            position: absolute;
+
+            width: 360px;
+
+            margin-top: 500px;
+
+            border-radius: 50px;
+
+
+
+            >h1 {
+
+
+
+                text-align: center;
+
+
+                margin-left: -20px;
+
+                font-size: 18px;
+
+
+            }
+
+
+
+
+            >p {
+
+
+                width: 280px;
+
+
+
+
+                text-align: center;
+
+
+                margin-left: 0px;
+
+                font-size: 12px;
+
+
+            }
+
+
+            .div-inputz-cadastroc {
+
+
+                padding-right: 13px;
+                padding-left: 50px;
+
+
+
+                >p {
+
+
+                    font-family: 'montserrat';
+                    font-weight: 600;
+                    font-size: 14px;
+
+                    text-transform: uppercase;
+
+                    color: #484242ea;
+
+                    position: absolute;
+
+                    margin-top: 20px;
+                    margin-left: 15px;
+
+
+
+
+                }
+
+
+                >input {
+
+
+                    padding: 15px;
+                    padding-top: 30px;
+
+                    max-width: 280px;
+
+
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+
+                    font-family: 'montserrat';
+
+                    border: none;
+                    border-radius: 5px;
+
+
+                }
+
+
+                .botoes-cadastrocliente {
+
+
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    padding-top: 10px;
+
+                    width: 50px;
+
+
+                    >p {
+
+                        margin-bottom: 25px;
+
+                        font-size: 12px;
+
+                        margin-left: 15px;
+
+
+                    }
+                }
+
+
+
+                .redes-cadastro {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    >p {
+
+
+                        font-family: 'montserrat';
+                        font-size: 12px;
+
+
+                    }
+
+
+                    .icons-redes-cadastroc {
+
+
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+
+                        margin-top: 10px;
+
+                        padding-bottom: 50px;
+
+                        >img {
+
+
+                            width: 50px;
+                            height: 50px;
+
+
+                        }
+
+                    }
+
+                }
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}

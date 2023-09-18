@@ -1,153 +1,920 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
-.rodape
-{
+
+@font-face {
+  font-family: 'kronaone';
+  src: url('../../../public/assets/fonts/krona-one/KronaOne-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'imprima';
+  src: url('../../../public/assets/fonts/imprima/Imprima-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'kodchasan';
+  src: url('../../../public/assets/fonts/Kodchasan/Kodchasan-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../../../public/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+.rodape {
+
+
+  display: flex;
+  flex-direction: column;
+
   background-color: #B7A598;
-  height: 611px;
-  padding: 100px 50px;
-  .container{
-display: flex;
-flex-direction: row;
+
+
+
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+
+
+
+  .cima-rodape {
+
+
+
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 50px;
+
+
+    .esquerdarod-cima {
+
+
+
+      display: flex;
+      flex-direction: column;
+
+      width: 450px;
+
+
+      img {
+
+
+
+        max-height: 135px;
+        max-width: 210px;
+
+      }
+
+      .detalhe-rod {
+
+
+        display: flex;
+        flex-direction: row;
+
+        max-width: 550px;
+
+
+        .rod-txt {
+
+
+          display: flex;
+          flex-direction: column;
+
+          padding-top: 55px;
+
+          margin-left: -25px;
+
+          .rod-nome {
+
+
+            font-family: 'kronaone';
+            font-size: 16px;
+            font-weight: 500;
+
+            margin-left: 10px;
+            margin-bottom: 15px;
+
+            color: #1E1E1E;
+
+
+          }
+
+
+          .rod-ini {
+
+
+            font-family: 'montserrat';
+            font-size: 14px;
+            font-weight: 600;
+            text-align: justify;
+
+            word-spacing: 4.5px;
+
+
+            color: #1E1E1E;
+
+            max-width: 450px;
+
+            line-height: 35px;
+
+
+            div {
+
+              font-family: 'montserrat';
+              font-size: 14px;
+              font-weight: 600;
+              text-align: justify;
+
+
+              margin-left: -100px;
+
+              color: #1E1E1E;
+
+              max-width: 345px;
+
+              line-height: 35px;
+
+            }
+
+
+          }
+
+        }
+
+
+
+      }
+
+
+      .segura {
+
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+
+        padding-top: 20px;
+
+
+        .eurece {
+
+
+          max-width: 80px;
+          max-height: 95px;
+
+
+
+        }
+
+        .seguro {
+
+
+          max-width: 65px;
+          max-height: 65px;
+
+          margin-left: 150px;
+
+        }
+
+      }
+
+    }
+
+
+
+
+
+    .linha-rodape {
+
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      margin-left: 15px;
+      margin-right: 30px;
+      margin-top: 30px;
+
+
+      max-height: 320px;
+      width: 1px;
+
+      background-color: #846468;
+
+    }
+
+
+
+    .redes-sociais {
+
+
+      display: flex;
+      flex-direction: column;
+
+      width: 350px;
+
+
+
+      >p {
+
+        font-size: 18px;
+        font-family: 'montserrat';
+        font-weight: 600;
+
+        color: #1E1E1E;
+
+
+
+      }
+
+
+
+      .icon-redes {
+
+
+
+
+
+
+        .insta {
+
+
+          height: 65px;
+          width: 60px;
+
+          margin-right: -16px;
+
+
+        }
+
+
+        .insta:hover {
+
+
+          cursor: pointer;
+
+        }
+
+
+        .twitter:hover {
+
+
+          cursor: pointer;
+
+        }
+
+        .facebok {
+
+
+
+          height: 60px;
+          width: 60px;
+
+          margin-left: -16px;
+
+
+        }
+
+
+        .facebok:hover {
+
+
+
+          cursor: pointer;
+
+        }
+
+
+
+      }
+
+    }
+
+
+    .redes {
+
+      display: flex;
+      flex-direction: column;
+      margin-top: 5px;
+
+      max-width: 350px;
+
+
+      a {
+
+        font-weight: 700;
+
+        color: #1E1E1E;
+
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+
+      }
+
+
+      p {
+
+
+        font-weight: 600;
+
+        color: #1E1E1E;
+
+
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+
+
+      }
+
+
+      p:hover {
+
+
+        cursor: pointer;
+
+
+      }
+
+
+
+    }
+
+
+
+
+
+    .suporte {
+
+
+      >p {
+
+
+        font-size: 18px;
+        font-family: 'montserrat';
+        font-weight: 600;
+
+        color: #1E1E1E;
+
+        margin-bottom: 25px;
+
+
+      }
+
+
+      .politicas {
+
+
+        display: flex;
+        flex-direction: column;
+
+        >a {
+
+
+          margin-top: 10px;
+          margin-bottom: 10px;
+
+
+          font-weight: 600;
+
+          color: #1E1E1E;
+
+
+
+
+
+
+        }
+
+
+        .formas {
+
+
+          >p {
+
+            font-size: 18px;
+            font-family: 'montserrat';
+            font-weight: 600;
+
+            color: #1E1E1E;
+
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+          }
+
+        }
+
+
+
+      }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
   }
 
-  
 
-  .esquerda2{
-  
-    width: 100px;
-    height: 50px;
 
- }
+  .baixo-rodape {
 
- .logo{
-  max-width:200px;
-  max-height:150px;
-  display: block;
-  margin: 25px;
-  padding: 10px 10px 0 10px;
-  right:76 70vh;
-  position:absolute;
-  color: black;
-  
- }
 
- .esquerda2>p{
-width: 350px;
- }
 
- .esquerda2>h1{
-  font-size: 21px;
-  width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
- }
 
- .paragrafo-esquerda2{
-  margin-left: 85px;
+    >p {
 
- }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
- .segura{
-  padding: 15px 155px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
- }
+      font-family: 'kodchasan';
 
- .rece{
-width: 60px;
-margin-right: 50px;
- }
 
- .seguro{
-  width: 130px;
-  height: 50px;
- }
+      color: #1E1E1E;
 
- .redes-sociais{
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  margin-left: 300px;
- }
+      max-width: 250px;
 
- .redes-sociais>h1{
-width: 200px;
-font-size: 15px;
- }
+    }
 
-.icon-redes{
-  margin-top: 5px;
-  margin-left: -5px;
+
+    .linha-baixo {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      margin-top: 50px;
+      margin-bottom: 75px;
+
+
+      height: 1px;
+      width: 1200px;
+
+      background-color: #846468;
+
+
+    }
+
+
+
+  }
+
+
+
 }
 
- .i{
-  width: 20px;
-  margin-left: 5px;
- }
 
- .redes{
-  display: flex;
-  flex-direction: column;
-  color: #000;
- }
 
- .redes>a{
-  margin-top: 5px;
-  margin-bottom: 10px;
-  color: #000;
- }
- .aaa, a, p{
-  margin-top: 10px;
-  margin-bottom: 5px;
-  color: #000;
- }
 
-.pagamentos{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
+
+@media (max-width:720px) {
+
+
+  .cima-rodape {
+
+
+
+    display: flex;
+    flex-direction: column;
+
+
+
+    .esquerdarod-cima {
+
+
+      margin-left: -10px;
+
+
+    }
+
+
+
+
+    .redes-sociais {
+
+
+      margin-left: 30px;
+
+
+    }
+
+
+
+    .suporte {
+
+
+      margin-left: 30px;
+
+
+    }
+
+
+
+
+    .linha-rodape {
+
+      display: flex;
+
+
+      height: 1px;
+      width: 500px;
+
+
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+
+      background-color: #846468;
+
+
+    }
+
+
+
+
+  }
+
+
+
+
+  .linha-baixo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin-top: 50px;
+    margin-bottom: 75px;
+
+
+    height: 1px;
+    max-width: 600px;
+
+    background-color: #846468;
+
+
+  }
+
+
+
 }
 
-.politicas{
-  display: flex;
-  flex-direction: column;
-}
 
-.suporte>h1{
-  font-size: 15px;
-}
 
-.formas{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+@media (max-width:360px) {
 
-.formas>h2{
-  font-size: 12px;
-  margin-top: 20px;
-  width: 150px;
-}
-.politicas>a{
-  margin-bottom: -5px;
-}
+  .rodape {
 
-hr{
-  margin-top: 20px;
-  border-color: #846468;
-}
 
-.details{
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 200px;
-}
+
+    .cima-rodape {
+
+
+
+      display: flex;
+      flex-direction: column;
+
+
+
+      .esquerdarod-cima {
+
+
+        margin-left: -30px;
+
+        max-width: 280px;
+
+
+        .detalhe-rod {
+
+          max-width: 280px;
+
+          margin-left: -25px;
+
+          .rod-txt {
+
+
+            padding-top: 55px;
+
+            margin-left: -25px;
+
+            .rod-nome {
+
+
+              font-size: 14px;
+
+              margin-bottom: 15px;
+
+            }
+
+            .rod-ini {
+
+              font-size: 11px;
+
+              line-height: 15px;
+
+              max-width: 245px;
+
+            }
+
+            .rod-ini>div {
+
+
+              font-size: 11px;
+
+
+
+              word-spacing: 2.25px;
+
+              max-width: 245px;
+
+              line-height: 15px;
+
+              margin-left: -50px;
+
+            }
+
+          }
+        }
+
+        .detalhe-rod>img {
+
+
+
+          max-width: 120px;
+          max-height: 110px;
+
+
+        }
+
+
+
+        .segura {
+
+
+          margin-left: 25px;
+
+          max-width: 250px;
+
+
+
+          .eurece {
+
+
+            max-width: 50px;
+            max-height: 65px;
+
+
+          }
+
+
+          .seguro {
+
+
+            max-width: 35px;
+            max-height: 35px;
+
+            margin-left: 15px;
+
+
+
+          }
+
+        }
+
+
+      }
+
+
+
+
+      .redes-sociais {
+
+
+        margin-left: 30px;
+
+
+        > p {
+
+
+          max-width: 200px;
+
+
+        }
+
+
+
+        .icon-redes {
+
+
+          max-width: 245px;
+
+
+
+        }
+
+
+        .redes {
+
+
+          max-width: 245px;
+
+
+        }
+
+
+      }
+
+
+
+      .suporte {
+
+
+        margin-left: 30px;
+
+
+      }
+
+
+
+
+      .linha-rodape {
+
+        display: flex;
+
+
+        height: 1px;
+        width: 290px;
+
+
+        margin-left: -10px;
+        margin-right: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+
+        background-color: #846468;
+
+
+      }
+
+
+
+
+    }
+
+
+
+
+    .linha-baixo {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      margin-top: 50px;
+      margin-bottom: 75px;
+
+
+      height: 1px;
+      max-width: 290px;
+      background-color: #846468;
+
+
+    }
+
+
+
+
+    .redes-sociais {
+
+
+
+
+      >p {
+
+
+        font-size: 14px;
+
+
+      }
+
+
+      .instrucoes-rodape>p {
+
+        font-size: 12px;
+
+
+      }
+
+      .contato-rodape>p {
+
+
+
+        font-size: 12px;
+
+      }
+
+
+      .icon-redes {
+
+
+        .insta {
+
+
+          max-height: 50px;
+          max-width: 45px;
+
+          margin-right: -16px;
+
+
+        }
+
+
+        .twitter {
+
+
+          max-height: 65px;
+          max-width: 65px;
+
+
+        }
+
+
+        .facebok {
+
+
+          max-height: 47px;
+          max-width: 47px;
+
+          margin-left: -16px;
+
+
+
+        }
+
+
+
+      }
+
+
+    }
+
+
+
+    .suporte p {
+
+
+      font-size: 14px;
+
+    }
+
+    .politicas a {
+
+
+      font-size: 12px;
+
+    }
+
+
+    .baixo-rodape p {
+
+
+      font-size: 14px;
+
+
+    }
+
+
+  }
 }
